@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    overflow-x: hidden;
+    font-family: arial;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    box-shadow: 0px 1px 2px 2px red;
+}
+
+.headername {
+    background-color: aquamarine transparent;
+    margin-left: 50px;
+}
+
+.headername h2 {
+    color: white
+}
+
+.headername span {
+    color: red
+}
+
+.invisible {
+    background-color: burlywood;
+}
+
+.navlink {
+    background-color: bisque transparent;
+    margin-right: 50px;
+}
+
+.navlink a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: 0.4s ease-in-out;
+    color: white
+}
+
+.navlink a:hover {
+    background-color: red;
+}
+
+#header {
+    width: 100%;
+}
+
+.about {
+    background-color: chartreuse;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 0px 2px 10px 3px rgba(0,0,0,.5);
+}
+
+.about img {
+    width: 210px;
+    height: 320px;
+    border-top: 5px black solid;
+    border-left: 5px black solid;
+    border-bottom: 5px black solid;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.abttext {
+    background-color: red;
+    width: 400px;
+    height: 300px;
+    line-height: 1.45;
+    text-align:justify;
+    padding: 10px 20px;
+    border-top: 5px black solid;
+    border-bottom: 5px black solid;
+    border-right: 5px black solid;
+    border-left: 5px black solid;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.abttext h3 {
+    margin-top: 10px;
+}
+
+.abttext ul {
+    margin-left: 40px;
+}
+
+.abttext ul li {
+    font-weight: bold;
+}
+
+.line {
+    background-color: black;
+    width: 90%;
+    height: 5px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lines {
+    background-color: white;
+    width: 90%;
+    height: 2px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#school {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.school {
+    justify-content: center;
+    width: 52.5%;
+    margin: auto;
+    background-color: aqua;
+    border-radius: 20px;
+    box-shadow:0px 2px 10px 3px rgba(0,0,0,.5);
+}
+
+.class {
+    background-color: red transparent;
+    display: flex;
+    justify-content: space-around;
+}
+
+.yrbtn {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background-color: red;
+    border-bottom: 1px white solid;
+}
+
+#yr11 {
+    border-left: 1px white solid;
+    border-right: 1px white solid;
+}
+
+#yr10 {
+    border-radius: 20px 0px 0px 0px;
+}
+
+#yr12 {
+    border-radius: 0px 20px 0px 0px;
+}
+
+.yrbtn:hover {
+    background-color: black;
+}
+
+.schoolinfo {
+    padding: 10px;
+    background-color: black;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.placeinfo {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.yr10,.yr11,.yr12 {
+    margin: 20px;
+}
+
+.yr10,.yr11,.yr12 h3 {
+    color: white;
+    text-align: justify;
+}
+
+.yr10,.yr11,.yr12 h2 {
+    color: white;
+    text-align: justify;
+}
+
+.yrbtn.active {
+    background-color: black;
+}
+
+.ekskul {
+    width: 80%;
+    background-color: azure transparent;
+    margin: auto;
+}
+
+.ekskulimg {
+    display: flex;
+}
+
+#ekskul1 {
+    width: 60%;
+}
+
+#ekskul2 {
+    width: 40%;
+}
+
+.yr10code {
+    background-color: aquamarine transparent;
+    width: 80%;
+    margin: auto;
+}
+
+.yr10code img {
+    width: 100%
+}
+
+.yr10code h4 {
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    height: 30%;
+    background-color: black;
+    border-top: 5px red solid;
+    color: white;
+    padding: 20px;
+}
+
+.footcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footcon a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 15px;
+    font-size: 17.5px;
+    border: 1.5px white solid;
+    padding: 5px;
+    background-color: red;
+    transition: 0.4s ease-in-out;
+}
+
+.footcon a:hover {
+    background-color: white;
+    color: red;
+    border: 1.5px red solid
+}
