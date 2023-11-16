@@ -59,7 +59,7 @@ nav {
 }
 
 .about {
-    background-color: chartreuse;
+    background-color: chartreuse transparent;
     width: fit-content;
     margin: auto;
     display: flex;
@@ -201,10 +201,28 @@ nav {
     background-color: black;
 }
 
+.kat {
+    background-color: aqua transparent;
+    width: 80%;
+    margin: auto;
+}
+
+.kat iframe {
+    width: 100%;
+}
+
+.kat h4 {
+    text-align: center;
+}
+
 .ekskul {
     width: 80%;
     background-color: azure transparent;
     margin: auto;
+}
+
+.ekskul h4 {
+    text-align: center;
 }
 
 .ekskulimg {
@@ -263,4 +281,157 @@ footer {
     background-color: white;
     color: red;
     border: 1.5px red solid
+}
+
+.invisible {
+    display: block;
+}
+
+@media screen and (max-width: 770px) {
+    .invisible {
+        height: 50px;
+        background-color: antiquewhite;
+    }
+    .kat iframe {
+        width: 300px;
+        height: 200px
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .school {
+        width: 75%;
+    }
+    nav {
+        width: 100vw;
+    }
+    .about {
+        width: 80%;
+    }
+    .abttext h3 {
+        font-size: 15px;
+    }
+    .abttext ul li {
+        font-size: 12.5px;
+    }
+    .schoolinfo h4 {
+        font-size: 12.5px;
+        text-align: justify;
+    }
+    .kat iframe {
+        width: 300px;
+        height: 200px;
+    }
+    .navlink {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .invisible {
+        height: 40px;
+    }
+    .about {
+        display: grid;
+        border-radius: 0px;
+        width: fit-content;
+        border-radius: 40px;
+    }
+    .about img {
+        width: 240px;
+        height: 330px;
+        border-radius: 40px 40px 0px 0px;
+        border: 3px black solid;
+    }
+    .abttext {
+        border-radius: 0px 0px 40px 40px;
+        border: 3px black solid;
+        height: fit-content;
+        width: 200px;
+    }
+    .abttext h3 {
+        margin: 0;
+    }
+    .kat iframe {
+        width: 250px;
+    }
+    .headername {
+        margin-left: 20px;
+    }
+    .headername h2, .headername h2 span {
+        font-size: 20px;
+    }
+    .footcon {
+        justify-content: space-between;
+    }
+    .footcon a {
+        padding: 5px;
+        font-size: 12.5px;
+        margin: 0px 0px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .navlink {
+        margin-right: 5px;
+        align-items: center;
+    }
+    .navlink a {
+        font-size: 12.5px;
+    }
+    .headername h2, .headername h2 span {
+        font-size: 15px;
+    }
+    .kat iframe {
+        width: 225px;
+    }
+    .school {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .navlink {
+        margin-right: 2px;
+    }
+    .navlink a {
+        font-size: 11px;
+        padding: 5px;
+    }
+    .headername {
+        margin-left: 10px;
+    }
+    .kat iframe {
+        width: 200px;
+    }
+    .schoolinfo h4 {
+        font-size: 10px;
+    }
+    .school {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .navlink {
+        margin-right: 0px;
+    }
+    .navlink a {
+        font-size: 10px;
+    }
+    .headername {
+        background-color: cadetblue transparent; 
+        margin-left: 10px;
+    }
+    .headername h2, .headername h2 span {
+        font-size: 12.5px;
+    }
+    .footcon h3 {
+        font-size: 12.5px;
+    }
+    .footcon a {
+        padding: 2px;
+        border: 1px white solid;
+        margin: 0px;
+    }
 }
